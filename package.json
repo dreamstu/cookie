@@ -2,7 +2,7 @@
   "name": "qs-cookie",
   "version": "1.0.0",
   "description": "一套方便灵活的高可用的前端组合框架，cookie操作组件",
-  "keywords": ["cookie"],
+  "keywords": ["cookie"], 
   "homepage": "http://www.dreamstu.com/",
   "author": "Seven",
   "authorInfo":[{
