@@ -30,7 +30,7 @@ var qsCookie = require('qs-cookie');
 `释义`
 cookie操作对象。
 
-cookie.get(name) *String*
+###cookie.get(name) *String*
 
 `释义`
 获取指定名称的cookie值
@@ -39,7 +39,7 @@ cookie.get(name) *String*
 >@return {String} 获取到的cookie值
 
 
-cookie.remove(name, domain, path) *String|String|String*
+###cookie.remove(name, domain, path) *String|String|String*
 
 `释义`
 删除指定cookie,复写为过期
@@ -52,7 +52,7 @@ cookie.remove(name, domain, path) *String|String|String*
 >@param {String} path 所在路径
 
 
-cookie.set(name, value, domain, path, hour) *String|String|String|String|Number*
+###cookie.set(name, value, domain, path, hour) *String|String|String|String|Number*
 
 `释义`
 设置一个cookie
@@ -79,13 +79,13 @@ cookie.set(name, value, domain, path, hour) *String|String|String|String|Number*
 localStorage操作对象。
 
 
-localStorage.clear()
+###localStorage.clear()
 
 `释义`
 清空 localStorage
 
 
-localStorage.getItem(name)
+###localStorage.getItem(name)
 
 `释义`
 根据名字读取值
@@ -96,12 +96,12 @@ localStorage.getItem(name)
 >@return {String}
 
 
-localStorage.isSupports()
+###localStorage.isSupports()
 `释义`
 判断是否支持 localStorage
 
 
-localStorage.removeItem(name)
+###localStorage.removeItem(name)
 `释义`
 根据名字移除值
 
@@ -109,7 +109,7 @@ localStorage.removeItem(name)
 >@param {String} name
 
 
-localStorage.setItem(name, value)
+###localStorage.setItem(name, value)
 `释义`
 设置一个localStorage
 
